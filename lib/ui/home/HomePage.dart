@@ -1,10 +1,17 @@
 import 'package:flutter/material.dart';
+import 'GradientAppBar.dart';
+import 'HomePageBody.dart';
 
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Text('Hello'),
+      body: Column(
+        children: <Widget>[
+          GradientAppBar('treva'),
+          HomePageBody()
+        ],
+      ),
     );
   }
 }
