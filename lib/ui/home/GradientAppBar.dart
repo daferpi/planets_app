@@ -27,7 +27,7 @@ class GradientAppBar extends StatelessWidget {
       ),
       child: Center(
         child: Text(title,
-          style: const TextStyle(
+          style: TextStyle(
             color: Colors.white,
             fontFamily: 'Poppins',
             fontWeight: FontWeight.w600,
